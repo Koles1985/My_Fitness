@@ -9,7 +9,7 @@ import android.widget.LinearLayout;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private LinearLayout profileLayout;
+    private LinearLayout profileLayout, caloriesLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +17,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         profileLayout = (LinearLayout) findViewById(R.id.profile);
         profileLayout.setOnClickListener(this);
+        caloriesLayout = (LinearLayout) findViewById(R.id.energy_value);
+        caloriesLayout.setOnClickListener(this);
     }
 
     @Override
@@ -25,6 +27,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (view.getId()){
             case R.id.profile:
                 intent = new Intent(this, ProfileActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.energy_value:
+                intent = new Intent(this, CaloriesActivity.class);
                 startActivity(intent);
                 break;
         }

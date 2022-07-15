@@ -6,4 +6,14 @@
     <string name="optimal_weight">
         Оптимальный вес для вас составляет:
     </string>
+
+    <string-array name="food">
+        <item>Мясо</item>
+        <item>Рыба</item>
+        <item>Крупы</item>
+        <item>Овощи</item>
+        <item>Напитки</item>
+        <item>Фрукты</item>
+    </string-array>
+
 </resources>
