@@ -6,14 +6,20 @@
     <string name="optimal_weight">
         Оптимальный вес для вас составляет:
     </string>
+    <string name="food_category">Категория еды</string>
+    <string name="add">Добавить</string>
+    <string name="add_category">Добавить категорию</string>
 
     <string-array name="food">
         <item>Мясо</item>
         <item>Рыба</item>
         <item>Крупы</item>
+        <item>Супы</item>
+        <item>Салаты</item>
         <item>Овощи</item>
-        <item>Напитки</item>
         <item>Фрукты</item>
+        <item>Напитки</item>
+        <item>Алкоголь</item>
     </string-array>
 
 </resources>
