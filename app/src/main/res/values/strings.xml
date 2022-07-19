@@ -9,6 +9,8 @@
     <string name="food_category">Категория еды</string>
     <string name="add">Добавить</string>
     <string name="add_category">Добавить категорию</string>
+    <string name="Ok">Ok</string>
+    <string name="Cancel">Cancel</string>
 
     <string-array name="food">
         <item>Мясо</item>
